@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Proveedor de aleaciones especiales resistentes a temperatura y corrosión en México." />
+  <meta name="keywords" content="Alloymex, aceros inoxidables, níquel, aleaciones especiales, resistencia a la corrosión, alta temperatura" />
+  <title>Alloymex</title>
+  <link rel="icon" href="imagenes/logo2.jpeg" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet" />
+  
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <header id="inicio">
+      <img src="imagenes/logo.jpeg" alt="Alloymex">
+      <h1 class="shine">ALLOYMEX</h1>
+      <p>Aleaciones especiales para temperatura y corrosión</p>
+    </header>
+
+    <section id="servicios">
+      <h2>MISIÓN</h2>
+      <p>Proveer metales y acero de alta calidad a diversas industrias...</p>
+
+      <h2>VISIÓN</h2>
+      <p>Ser una empresa líder a nivel nacional e internacional...</p>
+
+      <h2>¿QUIÉNES SOMOS?</h2>
+      <p>
+        Somos una empresa joven en el mercado dedicada al manejo y distribución de materiales especiales en aleación inoxidable, diseñados para soportar alta temperatura y alta corrosión. Contamos con el respaldo de <strong>Alloinox (Aleaciones Inoxidables)</strong>, una compañía con más de 34 años de experiencia suministrando materiales de alta calidad al mercado nacional.
+      </p>
+      <p>
+        Atendemos a una amplia gama de industrias como fertilizantes, petroquímica, química, alimenticia, farmacéutica, construcción, cementera, embotelladoras, y más. Algunos de nuestros clientes destacados son: <em>Innophos Fosfatos de México, DuPont, Bayer, Pascual Boing, Sigma Alimentos (FUD), Grupo Peñafiel, Aquadynamics, Especialidades Térmicas</em>, entre otros.
+      </p>
+    </section>
+
+    <section id="productos">
+      <h2>PRODUCTOS</h2>
+
+      <h3>Aceros Inoxidables</h3>
+      <p>
+        T-304H, T-310, T-317/L, T-321, T-330, T-347, T-348, T-410, T-416, T-420, T-430, T-431, T-440, T-446
+      </p>
+
+      <h3>Aceros Dúplex y Superdúplex</h3>
+      <p>2205, 2507, 904L</p>
+
+      <h3>Aleaciones Base Níquel</h3>
+      <p>
+        Níquel 200, Monel 400, 405, K-500, Inconel 600, 601, 617, 625, 718, Incoloy 800 H/HT, 825, Hastelloy C-276, C-22, B2, B3, G-30, X
+      </p>
+
+      <h3>Otros Materiales</h3>
+      <p>
+        Alloy 20, Titanio, Tungsteno, Molibdeno, Acero al Manganeso, Cupro-Níquel 90-10 y 70-30, Acero Corten, aleaciones HK, HT, HU (herramental para hornos), materiales milimétricos
+      </p>
+
+      <h3>Presentaciones Disponibles</h3>
+      <ul>
+        <li>Placa, lámina, laina, solera</li>
+        <li>Barras redondas, huecas, cuadradas y hexagonales</li>
+        <li>Tubería y tubing sin costura y conexiones</li>
+        <li>Alambre, malla tejida, metal desplegado</li>
+        <li>Válvulas y conexiones</li>
+        <li>Tornillería y soldaduras especiales</li>
+        <li>Fundición en aleaciones especiales (HK, HT, HU)</li>
+        <li>Material estructural</li>
+      </ul>
+    </section>
+
+    <section id="galeria">
+      <h2>GALERÍA</h2>
+      <div class="carousel-container">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide"><img src="imagenes/imagenprim.jpeg" alt="Imagen 1"></div>
+          <div class="carousel-slide"><img src="imagenes/metal1.jpeg" alt="Imagen 2"></div>
+          <div class="carousel-slide"><img src="imagenes/metal2.jpeg" alt="Imagen 3"></div>
+          <div class="carousel-slide"><img src="imagenes/metal3.jpeg" alt="Imagen 4"></div>
+          <div class="carousel-slide"><img src="imagenes/metal8.jpeg" alt="Imagen 5"></div>
+          <div class="carousel-slide"><img src="imagenes/metal5.jpeg" alt="Imagen 6"></div>
+        </div>
+      </div>
+      <div class="carousel-buttons">
+        <button onclick="prevSlide()">‹ Anterior</button>
+        <button onclick="nextSlide()">Siguiente ›</button>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>CONTACTO</h2>
+      <p><strong>Dirección:</strong><br>
+        Calle Escorpena No. 53, Col. Los Olivos, Tláhuac, CDMX, C.P. 13210
+      </p>
+      <p><strong>Teléfonos:</strong><br>
+        (55) 3074 5538 · (55) 2132 3371 · (55) 3735 4122
+      </p>
+      <p><strong>Email:</strong> alloymex@gmail.com</p>
+    
+
+      <form action="https://formspree.io/f/xgvkegnk" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="message" placeholder="Escribe tu mensaje y dudas aquí..." rows="5" required></textarea>
+        <button type="submit">Enviar Comentarios</button>
+      </form>
+
+      <iframe 
+        src="https://www.google.com/maps?q=Calle+Escorpena+No.+53,+Col.+Los+Olivos,+Tláhuac,+CDMX,+C.P.+13210&zoom=15&output=embed" 
+        allowfullscreen 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <footer>
+      &copy; 2025 Alloymex – Aleaciones especiales para temperatura y corrosión
+    </footer>
+  </div>
+
+  <a href="https://wa.me/5215521323371?text=Hola,%20estoy%20interesado%20en%20los%20productos%20de%20Alloymex.%20¿Podrías%20brindarme%20más%20información?" 
+     class="whatsapp-float" target="_blank" title="Chatea con nosotros en WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    const track = document.getElementById('carouselTrack');
+    let currentIndex = 0;
+
+    function updateCarousel() {
+      track.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex > 0) ? currentIndex - 1 : track.children.length - 1;
+      updateCarousel();
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex < track.children.length - 1) ? currentIndex + 1 : 0;
+      updateCarousel();
+    }
+
+    setInterval(() => {
+      nextSlide();
+    }, 5000);
+  </script>
+
+</body>
+</html>
